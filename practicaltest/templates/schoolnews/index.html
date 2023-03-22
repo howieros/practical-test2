@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+<title>School News!</title>
+</head>
+<body>
+<h1>School News</h1>
+<div>
+<br />
+<strong>{{ boldmessage }}</strong><br />
+</div>
+
+<div>
+        <li>{{ news.title }}</li>
+
+<div>
+<img src="{% static 'images/hogwarts.jpg' %}"
+alt="Picture of Hogwarts" />
+</div>
+</body>
+</html>
